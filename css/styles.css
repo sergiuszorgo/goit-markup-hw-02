@@ -1,3 +1,28 @@
+.web-studio {
+  font-family: "Roboto", sans-serif;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  color: #2196f3;
+  text-decoration: none;
+}
+
+.logo-color {
+  color: #000000;
+}
 .button:hover {
   background-color: #2196f3;
+  color: #ffffff;
+}
+
+.navi {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.navi-link li {
+  color: #212121;
+  text-decoration: none;
 }
