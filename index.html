@@ -15,22 +15,28 @@
     <header>
       <!-- Навигация -->
       <nav>
-        <a href="/" class="logo">Web <span class="logo-color">Studio</span> </a>
+        <a href="/" class="logo link"
+          >Web <span class="logo-color">Studio</span>
+        </a>
         <ul class="navi">
-          <li class="navi-item"><a href="" class="navi-link">Студия</a></li>
           <li class="navi-item">
-            <a href="portfolio.html" class="navi-link">Портфолио</a>
+            <a href="" class="navi-link link">Студия</a>
           </li>
-          <li class="navi-item"><a href="" class="navi-link">Контакты</a></li>
+          <li class="navi-item">
+            <a href="portfolio.html" class="navi-link link">Портфолио</a>
+          </li>
+          <li class="navi-item">
+            <a href="" class="navi-link link">Контакты</a>
+          </li>
         </ul>
         <ul class="navi">
           <li>
-            <a href="/" class="addres-link envelope"
+            <a href="/" class="addres-link link envelope"
               ><img src="./images/envelope.svg" alt="" />info@devstudio.com</a
             >
           </li>
           <li>
-            <a href="/" class="addres-link smartphone"
+            <a href="/" class="addres-link link smartphone"
               ><img src="./images/smartphone.svg" alt="" />+38 096 111 11 11</a
             >
           </li>
@@ -90,31 +96,31 @@
 
     <!-- Чем мы занимаемся -->
     <section>
-      <h2>Чем мы занимаемся</h2>
+      <h2 class="desstr">Чем мы занимаемся</h2>
       <ul class="navi">
         <li>
           <img src="./images/nout.png" alt="" width="370" />
-          <h3>Десктопные приложения</h3>
+          <h3 class="business">Десктопные приложения</h3>
         </li>
         <li>
           <img src="./images/tele.png" alt="" width="370" />
-          <h3>Мобильные приложения</h3>
+          <h3 class="business">Мобильные приложения</h3>
         </li>
         <li>
           <img src="./images/monitor.png" alt="" width="370" />
-          <h3>Дизайнерские решения</h3>
+          <h3 class="business">Дизайнерские решения</h3>
         </li>
       </ul>
     </section>
 
     <!--Комманда-->
     <section>
-      <h2>Наша команда</h2>
+      <h2 class="desstr">Наша команда</h2>
       <ul class="navi">
         <li>
           <img src="./images/Nikolay.jpg" alt="" width="270" />
-          <h3>Николай Кучеренко</h3>
-          <p>Product Designer</p>
+          <h3 class="people">Николай Кучеренко</h3>
+          <p class="people-description">Product Designer</p>
           <ul class="navi">
             <li>
               <a href="">
@@ -140,8 +146,8 @@
         </li>
         <li>
           <img src="./images/Olga.jpg" alt="" />
-          <h3>Ольга Иванова</h3>
-          <p>Frontend Developer</p>
+          <h3 class="people">Ольга Иванова</h3>
+          <p class="people-description">Frontend Developer</p>
           <ul class="navi">
             <li>
               <a href="">
@@ -167,8 +173,8 @@
         </li>
         <li>
           <img src="./images/Andrey.jpg" alt="" />
-          <h3>Андрей Шевченко</h3>
-          <p>Marketing</p>
+          <h3 class="people">Андрей Шевченко</h3>
+          <p class="people-description">Marketing</p>
           <ul class="navi">
             <li>
               <a href="">
@@ -194,8 +200,8 @@
         </li>
         <li>
           <img src="./images/Ivan.jpg" alt="" />
-          <h3>Иван Николаев</h3>
-          <p>UI Designer</p>
+          <h3 class="people">Иван Николаев</h3>
+          <p class="people-description">UI Designer</p>
           <ul class="navi">
             <li>
               <a href="">
@@ -222,7 +228,7 @@
       </ul>
     </section>
     <section>
-      <h2>Постоянные клиенты</h2>
+      <h2 class="desstr">Постоянные клиенты</h2>
       <ul class="navi">
         <li>
           <a href="">
@@ -259,13 +265,31 @@
 
     <!--подвал-->
     <footer class="foot">
-      <a href="/">Web <span>Studio</span> </a>
+      <a href="/" class="bottom-logo"
+        >Web <span class="bottom-logo-color">Studio</span>
+      </a>
       <address>
-        г. Киев, пр-т Леси Украинки, 26<br />
-        <a href="mailto:info@example.com">info@example.com</a><br />
-        <a href="tel:+380991111111">+38 099 111 11 11</a>
+        <ul class="navi">
+          <li>
+            <a
+              href="https://goo.gl/maps/2EUn389jbwumqFo99"
+              class="addres-item link"
+              >г. Киев, пр-т Леси Украинки, 26</a
+            ><br />
+          </li>
+          <li>
+            <a href="mailto:info@example.com" class="addres-item link"
+              >info@example.com</a
+            ><br />
+          </li>
+          <li>
+            <a href="tel:+380991111111" class="addres-item link"
+              >+38 099 111 11 11</a
+            >
+          </li>
+        </ul>
       </address>
-      <b>присоединяйтесь</b>
+      <b class="business">присоединяйтесь</b>
       <ul class="navi">
         <li>
           <a

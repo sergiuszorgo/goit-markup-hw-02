@@ -14,7 +14,6 @@ body {
   line-height: 1.92;
   letter-spacing: 0.03em;
   color: #2196f3;
-  text-decoration: none;
 }
 
 .logo-color {
@@ -25,14 +24,16 @@ body {
   list-style: none;
 }
 
+.link {
+  text-decoration: none;
+}
+
 .navi-link {
-  /* font-family: "Roboto", sans-serif; */
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
-  text-decoration: none;
 }
 
 .navi-link:hover,
@@ -41,12 +42,10 @@ body {
 }
 
 .addres-link {
-  /* font-family: "Roboto", sans-serif; */
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  text-decoration: none;
 }
 
 .envelope {
@@ -112,6 +111,35 @@ body {
   text-transform: uppercase;
   color: #212121;
 }
+.desstr {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.67;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.business {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.people {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.people-description {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
 
 .gallery {
   font-weight: bold;
@@ -121,11 +149,7 @@ body {
   color: #212121;
 }
 
-.gallery-link {
-  text-decoration: none;
-}
-
-.gallery-item {
+.gallery-description {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
@@ -148,4 +172,10 @@ body {
 
 .bottom-logo-color {
   color: white;
+}
+.addres-item {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
 }
