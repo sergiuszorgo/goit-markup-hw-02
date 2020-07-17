@@ -4,34 +4,33 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
-    <link rel="stylesheet" href="./css/styles.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body class="web-studio">
     <header>
       <!-- Навигация -->
-      <nav class="navi">
+      <nav>
         <a href="/" class="logo">Web <span class="logo-color">Studio</span> </a>
-        <ul class="navi-link">
-          <li><a href="">Студия</a></li>
-          <li><a href="portfolio.html">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+        <ul class="navi">
+          <li class="navi-item"><a href="" class="navi-link">Студия</a></li>
+          <li class="navi-item">
+            <a href="portfolio.html" class="navi-link">Портфолио</a>
+          </li>
+          <li class="navi-item"><a href="" class="navi-link">Контакты</a></li>
         </ul>
-        <ul>
+        <ul class="navi">
           <li>
-            <a href="/"
+            <a href="/" class="addres-link envelope"
               ><img src="./images/envelope.svg" alt="" />info@devstudio.com</a
             >
           </li>
           <li>
-            <a href="/"
+            <a href="/" class="addres-link smartphone"
               ><img src="./images/smartphone.svg" alt="" />+38 096 111 11 11</a
             >
           </li>
