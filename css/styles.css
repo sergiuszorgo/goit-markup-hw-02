@@ -69,9 +69,83 @@ body {
   color: #212121;
 }
 
+.hero-btn {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background-color: #2196f3;
+  border-radius: 4px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
 .btn:hover,
 .btn:focus {
   background-color: #2196f3;
+  border-color: #2196f3;
   color: #ffffff;
   cursor: pointer;
+}
+
+.hero {
+  background: rgba(47, 48, 58, 0.8);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.tech {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.gallery {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.gallery-link {
+  text-decoration: none;
+}
+
+.gallery-item {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.foot {
+  background: #2f303a;
+}
+
+.bottom-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+  text-decoration: none;
+}
+
+.bottom-logo-color {
+  color: white;
 }
